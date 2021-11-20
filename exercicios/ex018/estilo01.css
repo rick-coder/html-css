@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    font-family: 'Kaushan Script', serif;
+    font-size: 3em;
+}
+
+/*
+Medidas absolutas
+cm,
+mm,
+in,
+px,
+pt (ponto => unidade utilizada nos editores de texto como o Word, WordPad etc),
+pc
+
+Medidas relativas
+em (relativo ao tamanho da fonte do elemento pai (tamanho da letra M maiúscula) => 1em = tamanho da fonte do elemento pai definido na propriedade font-size),
+rem (relativo ao tamanho da fonte raiz (tamanho da letra M maiúscula) => fonte que está configurada no body ou no *),
+ex (relativo à "altura-x da fonte atual ou a metade de 1em" - altura da letra x minúscula da fonte atual),    
+vw (largura da viewport (em porcentagem) = largura da tela),
+vh (altura da viewport (em porcentagem) = altura da tela),
+%
+
+Recomendações da W3C: usar px e em
+
+Shothand Font: font-style font-weight font-size font-family
+Exemplo: font: italic bold 3em sans-serif
+*/

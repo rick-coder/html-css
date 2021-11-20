@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display: inline-block;
+    background-color: turquoise;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: yellow;
+}
+
+
+/*
+    CSS     HTML                Exemplo
+    #	    id                  id="unico"
+    .   	class               class="especial"
+    :	    pseudo-class        a:active
+    ::  	pseudo-element      a::before
+    >	    children            div > p {...}
+*/

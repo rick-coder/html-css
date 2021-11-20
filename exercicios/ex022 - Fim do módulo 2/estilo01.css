@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{  /* box-level */
+    background-color: rgb(120, 193, 253);
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid rgb(23, 120, 211);
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(23, 120, 211);
+    */
+
+    padding: 10px;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    padding: 10px 10px 10px 10px;
+    */
+
+    margin: 20px;
+    /*
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    margin: 20px 20px 20px 20px;
+    */
+
+    outline: 5px dashed darkkhaki;
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: darkkhaki;
+    */
+}
+
+a{  /* inline-level */
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(23, 120, 211);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+/*
+    CSS     HTML                Exemplo
+    #	    id                  id="unico"
+    .   	class               class="especial"
+    :	    pseudo-class        a:active
+    ::  	pseudo-element      a::before
+    >	    children            div > p {...}
+*/

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Love';    /* Dar um nome para a família de fontes criada */
+    src: url('fonts/love larry ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+
+    /*
+    Tipos de formatos
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (aat = Apple Advanced Typography)
+    - svg
+    */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    font-family: 'Love', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+/*
+Medidas absolutas
+cm,
+mm,
+in,
+px,
+pt (ponto => unidade utilizada nos editores de texto como o Word, WordPad etc),
+pc
+
+Medidas relativas
+em (relativo ao tamanho da fonte do elemento pai (tamanho da letra M maiúscula) => 1em = tamanho da fonte do elemento pai definido na propriedade font-size),
+rem (relativo ao tamanho da fonte raiz (tamanho da letra M maiúscula) => fonte que está configurada no body ou no *),
+ex (relativo à "altura-x da fonte atual ou a metade de 1em" - altura da letra x minúscula da fonte atual),    
+vw (largura da viewport (em porcentagem) = largura da tela),
+vh (altura da viewport (em porcentagem) = altura da tela),
+%
+
+Recomendações da W3C: usar px e em
+
+Shothand Font: font-style font-weight font-size font-family
+Exemplo: font: italic bold 3em sans-serif
+*/

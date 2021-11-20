@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!-- target="_blank" (abre em nova aba) 
+        target="self" (abre na própria aba -> padrão)
+        rel="external" (link do tipo externo) -->
+    <p>Você pode acessar o meu <a href="https://github.com/gustavoguanabara/gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito no YouTube</a>.</p>
+
+    <h1>Usando links internos</h1>
+    <!--
+        ./  => a própria pasta
+        ../ => a pasta anterior
+        Para voltar 2, 3, 4 pastas em um link é só continuar usando a sequência de "../../../arquivo.html".
+        Para cada sequência de ../ o código volta uma página.
+    -->
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="self">segunda página.</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="self">página de notícias</a></p>
+    
+    <h1>Links para downloads</h1>
+    <ul>
+        <!--https://www.iana.org/assignments/media-types/media-types.xhtml-->
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF.</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Baixar o livro compactado em RAR.</a></li>
+    </ul>
+</body>
+</html>

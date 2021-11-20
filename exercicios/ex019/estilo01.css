@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(120, 194, 152);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(9, 75, 37);
+}
+
+h1#principal{         /* Seletor personalizado */
+    text-align: center;
+    background-color: rgb(9, 75, 37);
+    color: white;
+}
+
+h2{
+    color: rgb(38, 124, 76);
+}
+
+.basico{
+    color: rgb(38, 124, 76);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(195, 219, 87);
+}
+
+.avancado{
+    color: rgb(197, 57, 99);
+}
+
+.destaque{
+    background-color: #c5c56070;
+}
+
+/*
+    Se em HTML é id, em CSS é #
+    Se em HTML é class, em CSS é .
+*/
