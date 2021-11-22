@@ -1,0 +1,7 @@
+body{
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url('../img/wallpaper003.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
